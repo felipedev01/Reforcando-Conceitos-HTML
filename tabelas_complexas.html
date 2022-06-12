@@ -8,23 +8,39 @@
 </head>
 <body>
     <table>
+        <colgroup>
+        <col >
+        <col span="2" style="background-color: red"
+        >
+
+        <col span="2"style="background-color:blue;">
+        </colgroup>
         <caption>Produzidos X Vendidos por loja</caption>
 
         <thead>
            <tr>
             <th rowspan="2"> </th>
-            <th colspan="2">Afonso Pena</th>
-            <th colspan="2">Antonia Pereira</th>
+            <th colspan="2" scope="colgroup">Afonso Pena</th>
+            <th colspan="2" scope="colgroup">Antonia Pereira</th>
            </tr>
 
            <tr>
-            <th>Vendidos</th>
-            <th>Produzidos</th>
-            <th>Vendidos</th>
-            <th>Produzidos</th>
+            <th scope="col">Vendidos</th>
+            <th scope="col">Produzidos</th>
+            <th scope="col">Vendidos</th>
+            <th scope="col">Produzidos</th>
            </tr>
            
         </thead>
+        <tbody>
+            <tr>
+                <th scope="row">Vassouras</th>
+                <td >50</td>
+                <td>252</td>
+                <td>400</td>
+                <td>320</td>
+            </tr>
+        </tbody>
         
     </table>
     
