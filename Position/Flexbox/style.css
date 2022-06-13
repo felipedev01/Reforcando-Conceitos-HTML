@@ -1,0 +1,24 @@
+.parent{
+    width: 100vw;
+    height: 100vh;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+*{
+    margin: 0;
+}
+.box1{
+    background-color: black;
+}
+.box2{
+    background-color: rgb(55, 219, 40);
+}
+.box3{
+    background-color: rgb(167, 12, 206);
+}.box{
+    width: 250px;
+    height: 250px;
+    margin-bottom: 10px;
+}
