@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+}
+.box{
+   
+    height: 250px;
+    
+}
+ 
+.box1{
+    background-color: rgb(0, 0, 0);
+    grid-area: box1;
+}
+.box2{
+    background-color: rgb(223, 61, 61);
+    grid-area: box2;
+}
+.box3{
+    background-color: rgb(19, 187, 103);
+    grid-area: box3;
+}
+.box4{
+    background-color: rgb(248, 213, 15);
+    grid-area: box4;
+}
+body{
+    display: grid;
+    grid-template-areas:  
+    'box2 box2'
+    'box1 box3'
+    'box4 box4';
+}
