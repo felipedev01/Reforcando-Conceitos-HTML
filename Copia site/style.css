@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+}
+body{
+    background-color:#ebebeb;
+    height:100vh ;
+    width: 100vw;
+}
+header{
+    background-color: #fff159;
+    height: 100px;
+}main{
+    background-color:#ebebeb ;
+}
